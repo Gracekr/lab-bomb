@@ -1,33 +1,45 @@
-.container{
+.container {
+    
     padding: 30px;
     width: 700px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: blue;
-    gap: 10px;
+    gap:20px;
 }
-.item{
-    
+
+.item {
+
     background: rgb(224, 221, 221);
     height: 200px;
     width: 200px;
 }
-.item:hover{
-    
+
+.item:hover {
+
     background-image: url(/img/bomb.jpg);
     background-size: cover;
-    
+
 }
-img{
+
+img {
     height: 200px;
     width: 200px;
 }
-img:hover{
-   
-    opacity: 0.1;
+
+img:hover {
+
+    opacity: 0;
 }
-item-6:hover{
+
+.item-6:hover {
     background-image: url(/img/hose-burst-pressure--1024x683-1498854275.jpg);
     background-size: cover;
+}
+
+section{
+    padding: 30px;
+    width: 600px;
+    display: flex;
 }
